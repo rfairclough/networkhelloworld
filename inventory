@@ -1,0 +1,6 @@
+[datacenter]
+sw1  type=switch
+sw2  type=switch
+router1  type=router
+fw1usa  type=fw
+fw2ie  type=fw

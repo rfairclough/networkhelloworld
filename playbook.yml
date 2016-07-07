@@ -1,0 +1,14 @@
+---
+
+  - name: FIRST PLAYBOOK
+    hosts: datacenter
+    connection: local
+    gather_facts: no
+
+
+    tasks:
+      - name: DEBUG AND PRINT TO TERMINAL
+        debug: var=inventory_hostname
+
+      - name: PRINT TYPE
+        debug: var=type
